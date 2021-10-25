@@ -7,7 +7,7 @@ The kaggle notebooks for training can be found [here](https://www.kaggle.com/abh
 **HARDWARE** : Normal kaggle gpu was used for training the model
 
 # Dataset
-The following [kaggle dataset](https://www.kaggle.com/jonathanbesomi/rsna-miccai-png) was used for training 
+The following [kaggle dataset](https://www.kaggle.com/jonathanbesomi/rsna-miccai-png) was used for training. train_labels.csv should be in the working directory for training.
 
 # Trained Checkpoints
 Link to my best model weights [efficientnet-b3](https://drive.google.com/drive/folders/1qSTjlLmP8wrGLD7-qo1hTX5koykH6N_8?usp=sharing)
