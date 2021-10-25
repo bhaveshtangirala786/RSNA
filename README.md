@@ -1,7 +1,6 @@
 # 5th place solution RSNA-MICCAI Brain Tumor Radiogenomic Classification
 
 This an outline of how to reproduce my solution for the [RSNA-MICCAI Brain Tumor Radiogenomic Classification competition](https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification)
-If you run into any trouble with the setup/code or have any questions please contact me at abhimanyukarshni@gmail.com
 
 The kaggle notebooks for training can be found [here](https://www.kaggle.com/abhimanyukarshni/rsna-training/notebook) and inference [here](https://www.kaggle.com/abhimanyukarshni/rsna-inference/notebook)
 
@@ -25,3 +24,6 @@ Modify the configuration variables in cfg.py before running the code
 
 * To train the models using a K-fold split, run the following command : python train.py
 * To make predictions on new data, run : python predict.py
+
+
+If you run into any trouble with the setup/code or have any questions please contact me at abhimanyukarshni@gmail.com
