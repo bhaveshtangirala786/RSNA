@@ -12,3 +12,16 @@ The following [kaggle dataset](https://www.kaggle.com/jonathanbesomi/rsna-miccai
 
 # Checkpoints
 Link to best model weights [efficientnet-b3](https://drive.google.com/drive/folders/1qSTjlLmP8wrGLD7-qo1hTX5koykH6N_8?usp=sharing)
+
+# Config
+Modify the configuration variables in cfg.py before running the code
+
+* TRAIN_PATH : directory with train images
+* TEST_PATH : directory with test images
+* test_type : 'dcm' if test images are in dicom format, else 'png'
+* weights : directory with model weights for predicting
+
+# Usage
+
+* To train the models using a K-fold split, run the following command : python train.py
+* To make predictions on new data, run : python predict.py
