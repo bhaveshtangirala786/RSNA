@@ -9,8 +9,8 @@ The kaggle notebooks for training can be found [here](https://www.kaggle.com/abh
 # Dataset
 The following [kaggle dataset](https://www.kaggle.com/jonathanbesomi/rsna-miccai-png) was used for training 
 
-# Checkpoints
-Link to best model weights [efficientnet-b3](https://drive.google.com/drive/folders/1qSTjlLmP8wrGLD7-qo1hTX5koykH6N_8?usp=sharing)
+# Trained Checkpoints
+Link to my best model weights [efficientnet-b3](https://drive.google.com/drive/folders/1qSTjlLmP8wrGLD7-qo1hTX5koykH6N_8?usp=sharing)
 
 # Config
 Modify the configuration variables in cfg.py before running the code
