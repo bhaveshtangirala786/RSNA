@@ -3,25 +3,13 @@
 This an outline of how to reproduce my solution for the [RSNA-MICCAI Brain Tumor Radiogenomic Classification competition](https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification)
 If you run into any trouble with the setup/code or have any questions please contact me at abhimanyukarshni@gmail.com
 
-#ARCHIVE CONTENTS
-kaggle_model.tgz          : original kaggle model upload - contains original code, additional training examples, corrected labels, etc
-comp_etc                     : contains ancillary information for prediction - clustering of training/test examples
-comp_mdl                     : model binaries used in generating solution
-comp_preds                   : model predictions
-train_code                  : code to rebuild models from scratch
-predict_code                : code to generate predictions from model binaries
-
-#HARDWARE: (The following specs were used to create the original solution)
-Ubuntu 16.04 LTS (512 GB boot disk)
-n1-standard-16 (16 vCPUs, 60 GB memory)
-1 x NVIDIA Tesla P100
+**HARDWARE** : Normal kaggle gpu was used for training the model
 
 #SOFTWARE (python packages are detailed separately in `requirements.txt`):
 Python 3.5.1
 CUDA 8.0
 cuddn 7.1.4.18
 nvidia drivers v.384
--- Equivalent Dockerfile for the GPU installs: https://gitlab.com/nvidia/cuda/blob/ubuntu16.04/8.0/runtime/cudnn7/Dockerfile
 
 #DATA SETUP (assumes the [Kaggle API](https://github.com/Kaggle/kaggle-api) is installed)
 # below are the shell commands used in each step, as run from the top level directory
