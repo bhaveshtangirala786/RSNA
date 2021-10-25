@@ -8,3 +8,5 @@ If you run into any trouble with the setup/code or have any questions please con
 **Dataset** : The following [kaggle dataset](https://www.kaggle.com/jonathanbesomi/rsna-miccai-png) was used for training 
 
 The kaggle notebooks for training can be found [here](https://www.kaggle.com/abhimanyukarshni/rsna-training/notebook) and inference [here](https://www.kaggle.com/abhimanyukarshni/rsna-inference/notebook)
+
+Link to best model weights [efficientnet-b3](https://drive.google.com/drive/folders/1qSTjlLmP8wrGLD7-qo1hTX5koykH6N_8?usp=sharing)
